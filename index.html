@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/boot_style/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="stylesheet" href="./sass/header.scss">
+</head>
+<body>
+   <div class="first-container" >
+  <!-- Навбар -->
+  <nav class="navbar navbar-expand-lg navbar-text-white ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Trevland</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навігації">
+        <span class="navbar-toggler-icon">menu</span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Location">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <!-- Кнопка бронювання -->
+      <a href="#" class="btn">Booking now</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Хедер -->
+  <header class="text-white py-5">
+    <div class="container">
+      <h1 class="display-4">Railtrips To Here,
+        There And Everywhere!</h1>
+      <p class="lead">We all wish to start our year the best way possible and also according to a common belief if you have a great start to your.</p>
+    </div>
+    <button type="button" class="btn btn-custom">Explore more</button>
+  </header>
+</div>
+
+  <!-- Центральна частина з трьома картками -->
+  <div class="second_container">
+  <h2 class="central-title">Popular Location</h2>
+  <p class="central-text">For every one of us, travel came first. We’ve spent years living as nomads, pioneers, and voyagers— from island hopping in the</p>
+  
+  <section id="home" class="py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Картка 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Istanbul.png" class="card-img-top" alt="Зображення 1">
+            <div class="card-body">
+              <h5 class="card-title">Istanbul, Turkey</h5>
+              <p class="card-text">Istanbul is a major city in Turkey that straddles Europe. </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Картка 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Kuala.png" class="card-img-top" alt="Зображення 2">
+            <div class="card-body">
+              <h5 class="card-title">Kuala Lumpur, malaysia</h5>
+              <p class="card-text">A 272-step long trek leads you to this century.</p>
+             
+            </div>
+          </div>
+        </div>
+        
+        <!-- Картка 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Seoul.png" class="card-img-top" alt="Зображення 3">
+            <div class="card-body">
+              <h5 class="card-title">Seoul, South Korea</h5>
+              <p class="card-text">South Korea officially the Republic of Korea is a country in East Asia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+  <!-- Друга частина з зображеннями і горизонтальним скролінгом -->
+  
+
+  <div class="third_container">
+
+    <h2 class="central-title">Special Offers</h2>
+  <p class="central-text">With the New Year comes a refreshing sense of wanderlust, a longing in our souls to escape to warmer climates</p>
+
+  <div class="scrolling">
+    <div class="container">
+        <div class="horizontal-scroll">
+          <div class="scroll-content">
+            <!-- Зміст для горизонтального скролінгу тут -->
+
+
+            <div class="d-inline-block">
+            <div class="card-scroll-first" style="width: 262px; height: 173px;">
+              <img src="img/usa-best-places-new-york 1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Statue of Liberty.</h5>
+                <ol>
+                  <li><img src="icons/point.svg" alt=""><span>New York</span><img src="icons/Star.svg" alt="" class="star"><samp>4.8</samp></li>
+                  <li><span class="custom-span">4 Day 5 Nights</span></li>
+                  <li><b>$450/</b><span class="custom-span">person</span></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="d-inline-block">
+            <div class="card-scroll" style="width: 262px; height: 173px;">
+            <img src="img/china-great-wall-and-mountain 1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Great Wall </h5>
+              <ol>
+                <li><img src="icons/point.svg" alt=""><span>China </span><img src="icons/Star.svg" alt="" class="star"><samp>4.9</samp></li>
+                <li><span class="custom-span">7 Day 8 Nights</span></li>
+                <li><b>$850/</b><span class="custom-span">person</span></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="d-inline-block">
+          <div class="card-scroll" style="width: 262px; height: 173px;">
+          <img src="img/Discover-sajek-valley 2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dizin</h5>
+            <ol>
+              <li><img src="icons/point.svg" alt=""><span>Iran</span><img src="icons/Star.svg" alt="" class="star"><samp>4.6</samp></li>
+              <li><span class="custom-span">5 Day 6 Nights</span></li>
+              <li><b>$550/</b><span class="custom-span">person</span></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+     
+     
+      <div class="d-inline-block">
+        <div class="card-scroll" style="width: 262px; height: 173px;">
+        <img src="img/Discover-sajek-valley 1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sajek Valley</h5>
+          <ol>
+            <li><img src="icons/point.svg" alt=""><span>Bangladesh</span><img src="icons/Star.svg" alt="" class="star"><samp>4.7</samp></li>
+            <li><span class="custom-span">3 Day 4 Nights</span></li>
+            <li><b>$400/</b><span class="custom-span">person</span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+   
+   
+    <div class="d-inline-block"><div class="card-scroll" style="width: 262px; height: 173px;">
+      <img src="img/Discover-sajek-valley 3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Osaka Castle</h5>
+        <ol>
+          <li><img src="icons/point.svg" alt=""><span>Japan</span><img src="icons/Star.svg" alt="" class="star"><samp>4.7</samp></li>
+          <li><span class="custom-span">4 Day 5 Nights</span></li>
+          <li><b>$700/</b><span class="custom-span">person</span></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+            <!-- Можна додати інші елементи, якщо потрібно --> 
+       
+          </div>
+      </div>
+</div>
+</div>
+</div>
+
+  <!-- Третя частина з чотирма картинками -->
+<div class="fourth_container">
+  <h2 class="central-title">From Blog & News</h2>
+  <p class="central-text">Welcome to Community Conversations, a new interview series featuring Intrepid travellers, creatives and activists in our community.</p>
+  
+    <div class="container">
+      <!-- Рядок з великою картинкою та текстом -->
+      <div class="general_container row">
+        <div class="big_img">
+          <img src="img/national park.png" alt="Велика картинка" class="img-fluid">
+          <div class="text_big_image">
+            <h2 class="text_big_title">Banff National Park</h2>
+            <p class="text_big_central">Banff National Park lies in the heart of the majestic <br>Rocky Mountains in the province of Alberta, and showcases some of Canada's most beautiful scenery. <br> Turquoise-colored lakes, snow-capped peaks, and glaciers are all easily accessible
+            </p>
+            <p class="text_big_end">@thomasalva_adison</p>
+          </div>
+        </div>
+        
+        <!-- контейнер з малими картинками -->
+        <div class="container_img">
+          
+          <!-- Перша мала картинка -->
+          <div class="images row">
+            <img src="img/The Hiroshima Peace!.png" alt="Перша мала картинка" class="img-fluid">
+            <div class="text_small_image">
+              <h3 class="text_small_title">The Hiroshima Peace!</h3>
+              <p class="text_small_central">It was formally opened to the public in August that year.</p>
+              <p class="text_small_end">@shova_bd88</p>
+            </div>
+          </div>
+          <!-- Друга мала картинка -->
+          <div class="images row">
+            <img src="img/The faithful prayers!.png" alt="Друга мала картинка" class="img-fluid">
+            <div class="text_small_image">
+              <h3 class="text_small_title">The faithful prayers!</h3>
+              <p class="text_small_central">A major pilgrimage center for Hindus, the holy city.</p>
+              <p class="text_small_end">@adem/smith</p>
+            </div>
+          </div>
+          <!-- Третя мала картинка -->
+          <div class="images row">
+            <img src="img/Colourful waters!.png" alt="Третя мала картинка" class="img-fluid">
+            <div class="text_small_image">
+              <h3 class="text_small_title">Colourful waters!</h3>
+              <p class="text_small_central">Forest-driven water and energy cycles are poorly.</p>
+              <p class="text_small_end">@jhon7leew</p>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+      </div>
+</div>
+
+
+  <!-- Футер -->
+  <div class="footer-container">
+  
+    <footer class="footer_text">
+    <div class="container">
+      <div class="row">
+        <!-- Інформація про нас -->
+        <div class="about_us">
+          <h4 class="footer_logo">Trevland</h4>
+          <p class="text_central">Contact us</p>
+          <p class="text_end">@shovasatkhira88.com</p>
+          <img src="icons/shair.svg" alt="">
+        </div>
+        <!-- Список 1 -->
+        <div class="first_list">
+          <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our story</a></li>
+            <li><a href="#">Benefits</a></li>
+            <li><a href="#">Branding</a></li>
+          </ul>
+        </div>
+        <!-- Список 2 -->
+        <div class="second_list">
+          <ul>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privecy Policy</a></li>
+            <li><a href="#">Terms of use</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Форма для імейла -->
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <h4>SUBSCRIBE NOW</h4>
+          <form>
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+              <button class="btn" type="button" id="button-addon2">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
+           
